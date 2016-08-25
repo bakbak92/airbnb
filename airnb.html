@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>Airbnb</title>
+
+  <!-- JQuery NE PAS SUPPRIMER -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- CSS Bootstrap -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- JS Bootstrap -->
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <link href="styles.css" rel="stylesheet" type="text/css"/>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header tetenav">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logoairbnb" href="#">
+            <img src="img/airbnb.png" alt="" />
+          </a>
+          <input type="search" placeholder="Où ?" name="the_search">
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="menu-basic hote" href="#">Devenez hôte</a></li>
+            <li><a class="menu-basic help ligngris" href="#">Aide</a></li>
+            <li><a class="menu-basic ligngris" href="#">Inscription</a></li>
+            <li><a href="#" class="ligngris">Connexion</a></li>
+
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="titre">
+      <h1>Vivez là-bas</h1>
+      <p>Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas, comme chez vous. </p>
+      <a href="#" class="play"><i class="fa fa-play-circle fa-5x action" aria-hidden="true"></i></a>
+    </div>
+    <div class="containertravel">
+      <div class="bartravel">
+        <input class="where" type="text" name="name" value="" placeholder="Où ?">
+        <button class="aridep"type="button" name="button">Arrivée <i class="fa fa-arrow-right" aria-hidden="true"> </i>Départ</button>
+        <select class="voyageur" name="">
+          <option value="option">Voyageur 1</option>
+          <option value="option">Voyageur 2</option>
+          <option value="option">Voyageur 3</option>
+          <option value="option">Voyageur 4</option>
+          <option value="option">Voyageur 5</option>
+        </select>
+        <button class="cherche"type="button" name="button">Rechercher</button>
+      </div>
+    </div>
+
+  </header>
+  <section class="container-fluid presentation">
+    <div class="container">
+      <div class="row">
+        <a href="#">
+          <div class="col-md-8 photowelcome">
+          </div>
+        </a>
+        <div class="col-md-4 opendoor">
+          <h3>Ouvrez la porte à un voyageur et à une nouvelle vie </h3>
+          <p>Gagnez de l'argent en accueillant des voyageurs. </p>
+          <div class="contentbtn">
+            <a href="#" class="btnblue">Estimer mes revenu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h3>Juste pour le week-end </h3>
+    <p> Découvrez de nouveaux logements incroyables près de chez vous. </p>
+    <div class="container troisdesti">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <a href="#">
+            <div class="col-md-12 destination1">
+              <h3>Lille</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 destination2">
+              <h3>Bruxelles</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 destination3">
+              <h3>Londres</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="btnall">
+      <a href="#" class="btnalldesti">Voir toutes les destinations</a>
+    </div>
+    <h3> Explorez le monde </h3>
+    <p> Découvrez les destinations les plus prisées à travers le monde. </p>
+    <div class="container multidesti">
+      <div class="row lign">
+        <div class="col-md-8 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 country1">
+              <h3>Lisbonne</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 country2">
+              <h3>Chez sam</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row lign">
+        <div class="col-md-4 col-sm-12">
+          <a href="#">
+            <div class="col-md-12 country3">
+              <h3>Amsterdam</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 country4">
+              <h3>New York</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 country5">
+              <h3>Escapade romantique a venise</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row lign">
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 country6">
+              <h3>Chez Manu</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-8">
+          <a href="#">
+            <div class="col-md-12 country7">
+              <h3>Rome</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row lign">
+        <div class="col-md-4 col-sm-12 ">
+          <a href="#">
+            <div class="col-md-12 country8">
+              <h3>Berlin</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 country9">
+              <h3>Bordeaux</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 country10">
+              <h3>Surf à Biarritz</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <h3> Nouveau ! Les Guides </h3>
+    <p> Découvrez des centaines de bonnes adresses recommandées par les hôtes Airbnb </p>
+    <div class="container troisdesti">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#">
+            <div class="col-md-12  col-sm-12 city1">
+              <h3>San Francisco</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 city2">
+              <h3>New York</h3>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 city3">
+              <h3>Londres</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="btnall">
+      <a href="#" class="btnalldesti">Découvrir tous les Guides</a>
+    </div>
+
+    <div id="my_carousel" class="carousel slide" data-ride="carousel">
+      <!-- Bulles -->
+      <ol class="carousel-indicators">
+        <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#my_carousel" data-slide-to="1"></li>
+        <li data-target="#my_carousel" data-slide-to="2"></li>
+        <li data-target="#my_carousel" data-slide-to="3"></li>
+
+      </ol>
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <!-- Page 1 -->
+        <div class="item active">
+          <div class="carousel-page asia">
+            <h3> Chez vous, ailleurs </h3>
+            <p> Découvrez l’accueil chaleureux que les hôtes Airbnb vous réservent à travers le monde. </p>
+            <a href="#" class="play"><i class="fa fa-play-circle fa-5x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- Page 2 -->
+        <div class="item">
+          <div class="carousel-page lune">
+            <h3> Nous vous présentons le Bélo </h3>
+            <p> Chez vous, ailleurs : l’histoire d’un symbole. </p>
+            <a href="#" class="play"><i class="fa fa-play-circle fa-5x" aria-hidden="true"></i></a>
+
+          </div>
+
+        </div>
+        <!-- Page 3 -->
+        <div class="item">
+          <div class="carousel-page logos">
+            <img src="img/logos.png"/>
+            <div class="crea">
+              <img src="img/crelogos.png" alt="" />
+              <h3>Appropriez-vous Airbnb<br/>Créez votre symbole, racontez votre histoire</h3>
+            </div>
+          </div>
+
+        </div>
+        <!-- Page 4 -->
+        <div class="item">
+          <div class="carousel-page maison">
+            <h3> Chez vous, où que vous alliez </h3>
+            <p> Grâce à Airbnb, vous vous sentirez chez vous en vacances. De villas de luxe aux appartements conviviaux parfaits pour les séjours en vacances, vous trouverez le logement de vos rêves. </p>
+            <a href="#" class="btnclair">Commencez à explorer</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Contrôles -->
+      <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#my_carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+    <h3 class="uscommunauty">Notre communauté</h3>
+    <div class="container-fluid communaute">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 velo">
+              <img src="img/crelogos.png" clas="crelo" />
+              <img src="img/velo.png" class="vel" />
+              <h3>Appropiez-vous Airbnb</h3>
+              <p>Créez votre symbole, racontez votre histoire</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 voyage">
+              <button type="button" name="button">Voyage</button>
+              <h3>Garry et Lianne</h3>
+              <p>A l'autre bout du monde ou dans leur région, Garry et Lianne sont constamment à la recherche d'expériences locales.</p>
+              <a href="#" class="surlign">En savoir plus sur le voyage avec Airbnb.</a>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 affaire">
+              <button type="button" name="button">Voyage d'affaires</button>
+              <h3>Airbnb pour les entreprises</h3>
+              <p>Comme chez vous, même en voyage d'affaires !</p>
+              <a href="#" class="surlign">Enregistez votre équipe sur Airbnb</a>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#">
+            <div class="col-md-12 hebergement">
+              <button type="button" name="button">Hébergement</button>
+              <h3>Patricia</h3>
+              <p>Photographe professionnelle, Patricia aime faire découvrir la scène artistique de Shangai à ses voyageurs.</p>
+              <a href="#" class="surlign">Apprenez-en-plus sur l'hébergement avec Airbnb.</a>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="liste">
+      <ul>
+        <li>
+          <select>
+            <option>Français</option>
+            <option>Espagnol</option>
+            <option>Italien</option>
+            <option>Chinois</option>
+            <option>Anglais</option>
+          </select>
+        </li>
+        <li>
+          <select>
+            <option>Euro</option>
+            <option>Dolars</option>
+            <option>Livre</option>
+            <option>Roupi</option>
+            <option>Francsuisse</option>
+          </select>
+        </li>
+      </ul>
+      <ul class="listing society">
+        <li class="titrelist">Société</li>
+        <li class="elist"><a href="#">À propos</a></li>
+        <li class="elist"><a href="#">Carrières</a></li>
+        <li class="elist"><a href="#">Presse</a></li>
+        <li class="elist"><a href="#">Blog</a></li>
+        <li class="elist"><a href="#">Aide</a></li>
+        <li class="elist"><a href="#">Règles Réponse aux </a></li>
+        <li class="elist"><a href="#">catastrophes</a></li>
+        <li class="elist"><a href="#">Conditions générales et confidentialité</a></li>
+      </ul>
+
+      <ul class="listing">
+        <li class="titrelist">Découvrir</li>
+        <li class="elist"><a href="#">Confiance et sécurité</a></li>
+        <li class="elist"><a href="#">Inviter des amis</a></li>
+        <li class="elist"><a href="#">La sélection Airbnb</a></li>
+        <li class="elist"><a href="#">Application mobile</a></li>
+        <li class="elist"><a href="#">Airbnb Action</a></li>
+        <li class="elist"><a href="#">Voyage d'affaires</a></li>
+        <li class="elist"><a href="#">Plan du site</a></li>
+      </ul>
+
+      <ul class="listing">
+        <li class="titrelist">Hébergement</li>
+        <li class="elist"><a href="#">Pourquoi être hôte</a></li>
+        <li class="elist"><a href="#">Hospitalité</a></li>
+        <li class="elist"><a href="#">Hébergement responsable</a></li>
+        <li class="elist"><a href="#">Sécurité à la maison</a></li>
+        <li class="elist"><a href="#">Réservation instantanée</a></li>
+      </ul>
+    </div>
+    <hr/>
+    <h4>Rejoignez-nous sur</h4>
+    <ul class="listlogo">
+      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+      <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+    </ul>
+    <p> © Airbnb, Inc. </p>
+  </footer>
+
+</body>

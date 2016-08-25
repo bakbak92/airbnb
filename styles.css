@@ -1,0 +1,741 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url("img/header.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+header nav .logoairbnb {
+  border-right: 1px solid #CDD0CC;
+  height: 61px;
+}
+header nav .logoairbnb img {
+  width: 99px;
+  height: 30px;
+}
+header nav input {
+  width: 350px;
+  border: none;
+  padding: 20px;
+}
+header nav .hote {
+  border: 2px solid #CDD0CC;
+  padding: 3px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+header nav .ligngris {
+  border-left: 1px solid #CDD0CC;
+  height: 61px;
+}
+header .titre {
+  padding-top: 160px;
+  text-align: center;
+}
+header .titre h1 {
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+}
+header .titre p {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+header .titre .play {
+  color: white;
+  opacity: 0,5;
+}
+header .containertravel {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 60px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .containertravel .bartravel {
+  background-color: white;
+  width: 934px;
+}
+header .containertravel .bartravel .where {
+  width: 370px;
+  height: 42px;
+}
+header .containertravel .bartravel .aridep {
+  width: 305px;
+  height: 42px;
+  border: none;
+}
+header .containertravel .bartravel .voyageur {
+  width: 105px;
+  height: 42px;
+}
+header .containertravel .bartravel .cherche {
+  width: 142px;
+  height: 42px;
+  background-color: #FD5A5F;
+  color: white;
+  border: 2px solid #FD5A5F;
+}
+.presentation {
+  background-color: #EDEFED;
+  padding: 30px;
+}
+.presentation .photowelcome {
+  background-image: url("img/welcome.jpg");
+  height: 340px;
+  background-size: cover;
+}
+.presentation .opendoor {
+  background-color: white;
+  height: 340px;
+}
+.presentation .opendoor h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #484848;
+  padding: 30px;
+}
+.presentation .opendoor p {
+  font-size: 16px;
+  padding: 0 22px;
+}
+.presentation .opendoor .contentbtn {
+  text-align: center;
+  padding-top: 30px;
+}
+.presentation .opendoor .contentbtn .btnblue {
+  text-decoration: none;
+  background-color: #007a87;
+  color: white;
+  padding: 9px 27px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.presentation h3 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #484848;
+}
+.presentation p {
+  font-size: 16px;
+  text-align: center;
+}
+.presentation .troisdesti .destination1 {
+  background-image: url(img/towngris.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .troisdesti .destination1 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .troisdesti .destination2 {
+  background-image: url(img/town1.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .troisdesti .destination2 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .troisdesti .destination3 {
+  background-image: url(img/english.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .troisdesti .destination3 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .btnall {
+  text-align: center;
+  padding: 40px;
+}
+.presentation .btnall .btnalldesti {
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #484848;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 9px 30px;
+}
+.presentation .multidesti .lign {
+  padding-top: 24px;
+}
+.presentation .multidesti .lign .country1 {
+  background-image: url(img/townred.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country1 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country2 {
+  background-image: url(img/terasse.jpg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country2 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country3 {
+  background-image: url(img/boat.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country3 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country4 {
+  background-image: url(img/city.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country4 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country5 {
+  background-image: url(img/romantic.jpg);
+  height: 340px;
+  background-position: -104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country5 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country6 {
+  background-image: url(img/appart.jpg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country6 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country7 {
+  background-image: url(img/rome.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country7 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country8 {
+  background-image: url(img/berlin.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country8 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country9 {
+  background-image: url(img/campagne.jpeg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country9 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .multidesti .lign .country10 {
+  background-image: url(img/surfeuse.jpg);
+  background-position: -106px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .multidesti .lign .country10 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .troisdesti .city1 {
+  background-image: url(img/haut.jpg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .troisdesti .city1 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .troisdesti .city2 {
+  background-image: url(img/tour.jpg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .troisdesti .city2 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .troisdesti .city3 {
+  background-image: url(img/town.jpg);
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.presentation .troisdesti .city3 h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+.presentation .asia {
+  background-image: url(img/familleasia.jpg);
+  background-size: cover;
+  height: 600px;
+  vertical-align: middle;
+  text-align: center;
+}
+.presentation .asia h3 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 200px;
+}
+.presentation .asia p {
+  color: white;
+  font-size: 24px;
+}
+.presentation .asia a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+}
+.presentation .asia a:hover {
+  opacity: 1;
+}
+.presentation .lune {
+  background-image: url(img/lune.jpg);
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+.presentation .lune h3 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 200px;
+}
+.presentation .lune p {
+  color: white;
+  font-size: 24px;
+}
+.presentation .lune a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+}
+.presentation .lune a:hover {
+  opacity: 1;
+}
+.presentation .logos {
+  background-color: #FFB400;
+  background-size: cover;
+  height: 600px;
+}
+.presentation .logos img {
+  height: 292px;
+  width: 100%;
+}
+.presentation .logos .crea {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.presentation .logos .crea img {
+  height: 59px;
+  width: 171px;
+  padding-right: 20px;
+}
+.presentation .logos .crea h3 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: justify;
+}
+.presentation .maison {
+  background-image: url(img/maison.png);
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+.presentation .maison h3 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 200px;
+}
+.presentation .maison p {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+.presentation .maison a {
+  text-decoration: none;
+  color: white;
+  background-color: #AAEFE9;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 9px 27px;
+}
+.presentation .maison a:hover {
+  text-decoration: none;
+  background-color: #379189;
+}
+.presentation .communaute a {
+  text-decoration: none;
+}
+.presentation .communaute a:hover {
+  text-decoration: none;
+}
+.presentation .communaute a .velo {
+  background-color: #00A699;
+  height: 492px;
+  text-align: center;
+}
+.presentation .communaute a .crelo {
+  width: 105px;
+  height: 36px;
+}
+.presentation .communaute a .vel {
+  width: 234px;
+  height: 270px;
+}
+.presentation .communaute a h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+.presentation .communaute a p {
+  font-size: 14px;
+  color: white;
+}
+.presentation .communaute .voyage {
+  background-image: url("img/couple.jpg");
+  background-size: cover;
+  height: 492px;
+  text-align: center;
+}
+.presentation .communaute .voyage h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding-top: 260px;
+}
+.presentation .communaute .voyage p {
+  font-size: 14px;
+  color: white;
+}
+.presentation .communaute .voyage .surlign {
+  text-decoration: none;
+  color: white;
+}
+.presentation .communaute .voyage .surlign:hover {
+  text-decoration: underline;
+}
+.presentation .communaute .voyage button {
+  color: white;
+  background-color: #007A87;
+  border: 2px solid #007A87;
+  font-weight: 700;
+  padding: 8px;
+}
+.presentation .communaute .affaire {
+  background-image: url(img/paper.jpg);
+  background-size: cover;
+  height: 492px;
+  text-align: center;
+}
+.presentation .communaute .affaire h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding-top: 260px;
+}
+.presentation .communaute .affaire p {
+  font-size: 14px;
+  color: white;
+}
+.presentation .communaute .affaire .surlign {
+  text-decoration: none;
+  color: white;
+}
+.presentation .communaute .affaire .surlign:hover {
+  text-decoration: underline;
+}
+.presentation .communaute .affaire button {
+  color: white;
+  background-color: #393C3D;
+  border: 2px solid #393C3D;
+  font-weight: 700;
+  padding: 8px;
+}
+.presentation .communaute .hebergement {
+  background-image: url(img/client.jpg);
+  background-size: cover;
+  height: 492px;
+  text-align: center;
+}
+.presentation .communaute .hebergement h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  padding-top: 260px;
+}
+.presentation .communaute .hebergement p {
+  font-size: 14px;
+  color: white;
+}
+.presentation .communaute .hebergement .surlign {
+  text-decoration: none;
+  color: white;
+}
+.presentation .communaute .hebergement .surlign:hover {
+  text-decoration: underline;
+}
+.presentation .communaute .hebergement button {
+  color: white;
+  background-color: #7B0051;
+  border: 2px solid #7B0051;
+  font-weight: 700;
+  padding: 8px;
+}
+footer {
+  background-color: #2B2D2E;
+}
+footer .liste {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+footer .liste .titrelist {
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+footer .liste ul li {
+  list-style: none;
+  color: white;
+}
+footer .liste ul li select {
+  background-color: #484848;
+  border: 2px solid #484848;
+  width: 249px;
+  padding: 15px;
+  margin: 10px;
+}
+footer .liste ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+footer .liste ul li a:hover {
+  opacity: 0.6;
+}
+footer hr {
+  color: #484848;
+  background-color: #484848;
+  border: 1px solid #484848;
+}
+footer h4 {
+  color: white;
+  text-align: center;
+}
+footer .listlogo {
+  display: flex;
+  justify-content: center;
+}
+footer .listlogo li {
+  list-style: none;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #484848;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 5px;
+  text-align: center;
+}
+footer .listlogo li a {
+  text-decoration: none;
+  color: white;
+}
+footer .listlogo li a:hover {
+  opacity: 0.6;
+}
+footer p {
+  color: #484848;
+  text-align: center;
+  padding-bottom: 60px;
+}
+@media only screen and (max-width: 800px) {
+  nav .tetenav input {
+    width: 250px;
+  }
+  header .containertravel .bartravel {
+    width: 750px;
+  }
+  header .containertravel .bartravel .where {
+    width: 220px;
+  }
+  header .containertravel .bartravel .aridep {
+    width: 275px;
+  }
+  header .containertravel .bartravel .voyageur {
+    width: 120px;
+  }
+  header .containertravel .bartravel .cherche {
+    width: 120px;
+  }
+  footer .listing .elist a {
+    font-size: 10px;
+  }
+  footer .listing .titrelist {
+    font-size: 11px;
+  }
+  footer .liste ul li select {
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  header nav .logoairbnb {
+    display: none;
+  }
+  header nav input {
+    border: 1px solid #CDD0CC;
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+  }
+  header .titre h1 {
+    font-size: 37px;
+  }
+  header .titre p {
+    font-size: 16px;
+  }
+  header .containertravel .bartravel .aridep {
+    display: none;
+  }
+  header .containertravel .bartravel .voyageur {
+    display: none;
+  }
+  header .containertravel .bartravel {
+    width: 242px;
+  }
+  header .containertravel .bartravel .cherche {
+    font-size: 11px;
+    width: 68px;
+    height: 45px;
+  }
+  header .containertravel .bartravel .where {
+    width: 170px;
+    border: medium none;
+    text-align: center;
+  }
+  .presentation .opendoor h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #484848;
+    padding: 5px;
+  }
+  .presentation .opendoor p {
+    font-size: 14px;
+    padding: 0px 14px;
+  }
+  .presentation .opendoor {
+    background-color: white;
+    height: 239px;
+  }
+  .presentation .btnall {
+    display: none;
+  }
+  #my_carousel {
+    display: none;
+  }
+  .communaute {
+    display: none;
+  }
+  .uscommunauty {
+    display: none;
+  }
+  footer .liste .listing {
+    display: none;
+  }
+  footer .liste ul li select {
+    width: 200px;
+  }
+}
